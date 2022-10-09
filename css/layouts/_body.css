@@ -1,0 +1,8 @@
+::selection{
+    color: var(--bs-white);
+    background-color: var(--bs-orange);
+}
+
+main{
+    margin-top: 3rem;
+}

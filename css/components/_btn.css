@@ -1,0 +1,31 @@
+.btn{
+    padding: 1rem 3rem;
+    display: grid;
+    place-items: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.btn-custome-blue{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 1rem;
+    background-color: var(--bs-blue);
+    color: var(--bs-white);
+    font-size: 1.6rem;
+    border-top-left-radius: 0;
+    margin-bottom: 4rem;
+}
+
+.btn-custome-blue:hover{
+    background-color: var(--bs-orange);
+    color: var(--bs-white);
+}
+
+.btn .icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: currentColor;
+}

@@ -1,0 +1,35 @@
+:root {
+
+  /* Colors */
+  --bs-orange: #FF393A;
+  --bs-white-0: #fff;
+  --bs-white-1: #f1f1f1;
+  --bs-white-2: #dfdfdf;
+  --bs-gray-0: #575757;
+  --bs-gray-1: #868686;
+  --bs-gray-2: #727272;
+  --bs-gray-3: #d3d3d3;
+  --bs-gray-4: #898888;;
+  --bs-black-0: #2D2927;
+  --bs-blue: #3996FF;
+
+  /* BREAKPOINTS */
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+
+
+  /* FONTS */
+  --font-primary: 'gandom', 'yekan';
+  --font-size-default: 1.6rem;
+}
+
+/*
+   BREAKPOINTS 
+    1200px ------> 75em; 
+    992px ------> 62em; 
+    768px ------> 48em; 
+    576px ------> 36em; 
+*/

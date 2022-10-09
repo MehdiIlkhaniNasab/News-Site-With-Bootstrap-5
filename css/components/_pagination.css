@@ -1,0 +1,6 @@
+.page-item.active{
+    background-color: var(--bs-orange) !important;
+    color: var(--bs-white-0) !important;
+}
+
+

@@ -1,0 +1,46 @@
+@media only screen and (max-width: 75em) {
+    html{
+        font-size: 50%;
+    }
+
+    .search-right svg{
+        width: 13rem;
+        height: 8rem;
+    }
+}
+
+@media only screen and (max-width: 62em) {
+    .top-news,
+    .top-visited{
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 48em) {
+    .navbar{
+
+        padding: 0 2rem;
+    }
+
+    .search{
+
+        justify-content: center;
+
+    }
+
+    .header{
+        padding: 1rem 4rem;
+    }
+
+ 
+
+    .last-news-item{
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .footer{
+        padding: 5rem 3rem;
+    }
+}
+
+@media only screen and (max-width: 36em) {}
